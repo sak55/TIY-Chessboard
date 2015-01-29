@@ -170,7 +170,6 @@ body {
 table {
     margin: 0 auto;
     width: 80%;
-    
 }
 
 tr {
@@ -188,11 +187,14 @@ td {
     
 }
    
-
+th {
+    background-color: black;
+    color: blue;
+}
 
 .row1 :nth-of-type(even) {
     background-color: gray;
-    
+   
 }
 
 .row2 :nth-of-type(odd){
