@@ -1,28 +1,29 @@
 function print(board) {
+    var head = ["<th></th>","<th>A</th>","<th>B</th>","<th>C</th>","<th>D</th>","<th>E</th>","<th>F</th>","<th>G</th>","<th>H</th>","<th></th>"],
+        cell = ["<td class=''></td>",]
+        row = "<tr></tr>",
+        i = 0;
+    
     document.write('<table>');
-    
-    var head = "<th></th>",
-        cell = "<td></td>",
-        row = "<tr></tr>";
-    
-    
+
     document.write("<thead>");
-    _.times(10,function(){
-        document.write(head);});
+    document.write(head);
     document.write("</thead>");
             
     _.times(8, function(){
-        document.write("<tr>");
-        _.times(10, function(){
-            document.write(cell);});
+        document.write("<tr class=''>");
+        _.times(10, function(n){
+            document.write(cell[i]);
+            i++;
+        });
         document.write("</tr>");});
     
     document.write("<thead>");
-    _.times(10,function(){
-        document.write(head);});
-    _.times(1, function(){
+    document.write(head);
     document.write("</thead>");
-    };
+    
+    document.write('</table>');
+}
 
 print();
 
