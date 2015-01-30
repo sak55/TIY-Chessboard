@@ -168,6 +168,7 @@ body {
 table {
     margin: 0 auto;
     width: 80%;
+    border: solid blue 1vw;
 }
 
 tr {
@@ -189,40 +190,165 @@ th {
     align-content: center;
 }
 
-.row1 :nth-of-type(even) {
+.row1 :nth-of-type(odd) {
     background-color: gray;
 }
 
-.row1 :last-of-type (th) {
+.row1 :first-child {
     background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
 }
 
-.row2 :nth-of-type(odd){
+.row1 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row2 :nth-of-type(even){
     background-color: gray;
 }
 
-.row3 :nth-of-type(even) {
+.row2 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row2 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row3 :nth-of-type(odd) {
     background-color: gray;   
 }
 
-.row4 :nth-of-type(odd){
+.row3 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row3 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row4 :nth-of-type(even){
     background-color: gray;
 }
 
-.row5 :nth-of-type(even) {
+.row4 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row4 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row5 :nth-of-type(odd) {
     background-color: gray;
 }
 
-.row6 :nth-of-type(odd) {
+.row5 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row5 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row6 :nth-of-type(even) {
     background-color: gray;
 }
 
-.row7 :nth-of-type(even) {
+.row6 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row6 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row7 :nth-of-type(odd) {
     background-color: gray;
 }
 
-.row8 :nth-of-type(odd) {
+.row7 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row7 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.row8 :nth-of-type(even) {
     background-color: gray;
+}
+
+.row8 :first-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
+    content: '#1';
+}
+
+.row8 :last-child {
+    background-color: black;
+    color: blue;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 1%;
 }
 
 #a8:before {
@@ -241,7 +367,7 @@ th {
     position: absolute;
     font-size: 6vw;
     padding: 10%;
-    color: black;
+    color: ;
 }
 
 #b8:hover {
