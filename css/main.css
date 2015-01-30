@@ -220,139 +220,202 @@ th {
 .row8 :nth-of-type(odd) {
     background-color: gray;
 }
-
-#a8:before {
+/*a8*/
+#BLRook:before {
     content: '\265C';
-    position: absolute;    
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 
 #b8:before {
     content: '\265E';
     position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 
 #c8:before {
     content: '\265D';
     position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 
 #d8:before {
     content: '\265B';
-    position: absolute;    
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 
 #e8:before {
-    content: '\'
-    position: absolute;    
+    content: '\265A';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #f8:before {
     content: '\265D';
-    position: absolute;    
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #g8:before {
     content: '\265E';
-    position: absolute;    
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #h8:before {
     content: '\265C';
-    position: absolute;    
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #a7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;    
 }
 #b7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #c7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #d7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #e7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #f7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #g7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #h7:before {
-    content: '\'
-    position: absolute;    
+    content: '\265F';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #a2:before {
-    content: '\'
-    position: absolute;    
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #b2:before {
-    content: '\'
-    position: absolute;    
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #c2:before {
-    content: '\'
-    position: absolute;    
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;    
 }
 #d2:before {
-    content: '\'
-    position: absolute;    
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
-#a2:before {
-    content: '\'
-    position: absolute;    
+#e2:before {
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
-#a2:before {
-    content: '\'
-    position: absolute;    
+#f2:before {
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
-#a2:before {
-    content: '\'
-    position: absolute;    
+#g2:before {
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;    
 }
-#a2:before {
-    content: '\'
-    position: absolute;    
+#h2:before {
+    content: '\2659';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;    
 }
 #a1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2656';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #b1:before {
-    content: '\'
-    position: absolute;    
-        
+    content: '\2658';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #c1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2657';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #d1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2655';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #e1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2654';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #f1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2657';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #g1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2658';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 #h1:before {
-    content: '\'
-    position: absolute;    
+    content: '\2656';
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
 }
 /* ==========================================================================
    Media Queries
