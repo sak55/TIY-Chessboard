@@ -1,3 +1,5 @@
+//Turn your print(board) function into a toString(board) function that returns String rather than logging it. Replace the outerHTML of #chessboard with the result of toString(board) and ditch all that HTML!
+
 var board = [
     ['R','N','B','Q','K','B','N','R'],
     ['P','P','P','P','P','P','P','P'],

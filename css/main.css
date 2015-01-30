@@ -159,22 +159,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-container {  
-}
-
-body {
-}
 
 table {
     margin: 0 auto;
     width: 80%;
     border: solid blue 1vw;
 }
-
-tr {
-}
-
-
 
 td {
     width: 10%;
@@ -190,11 +180,11 @@ th {
     align-content: center;
 }
 
-.row1 :nth-of-type(odd) {
+.oddrow :nth-of-type(odd) {
     background-color: gray;
 }
 
-.row1 :first-child {
+.oddrow :first-child {
     background-color: black;
     color: blue;
     font-size: 6vw;
@@ -202,7 +192,7 @@ th {
     padding-bottom: 1%;
 }
 
-.row1 :last-child {
+.oddrow :last-child {
     background-color: black;
     color: blue;
     font-size: 6vw;
@@ -210,11 +200,11 @@ th {
     padding-bottom: 1%;
 }
 
-.row2 :nth-of-type(even){
+.evenrow :nth-of-type(even){
     background-color: gray;
 }
 
-.row2 :first-child {
+.evenrow :first-child {
     background-color: black;
     color: blue;
     font-size: 6vw;
@@ -222,7 +212,7 @@ th {
     padding-bottom: 1%;
 }
 
-.row2 :last-child {
+.evenrow :last-child {
     background-color: black;
     color: blue;
     font-size: 6vw;
@@ -230,139 +220,19 @@ th {
     padding-bottom: 1%;
 }
 
-.row3 :nth-of-type(odd) {
-    background-color: gray;   
-}
 
-.row3 :first-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row3 :last-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row4 :nth-of-type(even){
-    background-color: gray;
-}
-
-.row4 :first-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row4 :last-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row5 :nth-of-type(odd) {
-    background-color: gray;
-}
-
-.row5 :first-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row5 :last-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row6 :nth-of-type(even) {
-    background-color: gray;
-}
-
-.row6 :first-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row6 :last-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row7 :nth-of-type(odd) {
-    background-color: gray;
-}
-
-.row7 :first-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row7 :last-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.row8 :nth-of-type(even) {
-    background-color: gray;
-}
-
-.row8 :first-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-    content: '#1';
-}
-
-.row8 :last-child {
-    background-color: black;
-    color: blue;
-    font-size: 6vw;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-#a8:before {
+.a8:before {
     content: '\265C';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#a8:hover {
+.a8:hover {
     background-color: lightblue;
 }
 
-#b8:before {
+.b8:before {
     content: '\265E';
     position: absolute;
     font-size: 6vw;
@@ -370,313 +240,313 @@ th {
     color: ;
 }
 
-#b8:hover {
+.b8:hover {
     background-color: lightblue;
 }
 
-#c8:before {
+.c8:before {
     content: '\265D';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#c8:hover {
+.c8:hover {
     background-color: lightblue;
 }
 
-#d8:before {
+.d8:before {
     content: '\265B';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#d8:hover {
+.d8:hover {
     background-color: lightblue;
 }
 
-#e8:before {
+.e8:before {
     content: '\265A';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#e8:hover {
+.e8:hover {
     background-color: lightblue;
 }
 
-#f8:before {
+.f8:before {
     content: '\265D';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#f8:hover {
+.f8:hover {
     background-color: lightblue;
 }
 
-#g8:before {
+.g8:before {
     content: '\265E';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#g8:hover {
+.g8:hover {
     background-color: lightblue;
 }
 
-#h8:before {
+.h8:before {
     content: '\265C';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
 
-#h8:hover {
+.h8:hover {
     background-color: lightblue;
 }
 
-#a7:before {
+.a7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;    
 }
-#a7:hover {
+.a7:hover {
     background-color: lightblue;
 }
 
-#b7:before {
+.b7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#b7:hover {
+.b7:hover {
     background-color: lightblue;
 }
 
-#c7:before {
+.c7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#c7:hover {
+.c7:hover {
     background-color: lightblue;
 }
 
-#d7:before {
+.d7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#d7:hover {
+.d7:hover {
     background-color: lightblue;
 }
 
-#e7:before {
+.e7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#e7:hover {
+.e7:hover {
     background-color: lightblue;
 }
 
-#f7:before {
+.f7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#f7:hover {
+.f7:hover {
     background-color: lightblue;
 }
 
-#g7:before {
+.g7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#g7:hover {
+.g7:hover {
     background-color: lightblue;
 }
 
-#h7:before {
+.h7:before {
     content: '\265F';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#:hover {
+.h7:hover {
     background-color: lightblue;
 }
 
-#a2:before {
+.a2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#a2:hover {
+.a2:hover {
     background-color: lightblue;
 }
 
-#b2:before {
+.b2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#b2:hover {
+.b2:hover {
     background-color: lightblue;
 }
 
-#c2:before {
+.c2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;    
 }
-#c2:hover {
+.c2:hover {
     background-color: lightblue;
 }
 
-#d2:before {
+.d2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#d2:hover {
+.d2:hover {
     background-color: lightblue;
 }
 
-#e2:before {
+.e2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#e2:hover {
+.e2:hover {
     background-color: lightblue;
 }
 
-#f2:before {
+.f2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#f2:hover {
+.f2:hover {
     background-color: lightblue;
 }
 
-#g2:before {
+.g2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;    
 }
-#g2:hover {
+.g2:hover {
     background-color: lightblue;
 }
 
-#h2:before {
+.h2:before {
     content: '\2659';
     position: absolute;
     font-size: 6vw;
     padding: 10%;    
 }
-#h2:hover {
+.h2:hover {
     background-color: lightblue;
 }
 
-#a1:before {
+.a1:before {
     content: '\2656';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#a1:hover {
+.a1:hover {
     background-color: lightblue;
 }
 
-#b1:before {
+.b1:before {
     content: '\2658';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#b1:hover {
+.b1:hover {
     background-color: lightblue;
 }
 
-#c1:before {
+.c1:before {
     content: '\2657';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#c1:hover {
+.c1:hover {
     background-color: lightblue;
 }
 
-#d1:before {
+.d1:before {
     content: '\2655';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#d1:hover {
+.d1:hover {
     background-color: lightblue;
 }
 
-#e1:before {
+.e1:before {
     content: '\2654';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#e1:hover {
+.e1:hover {
     background-color: lightblue;
 }
 
-#f1:before {
+.f1:before {
     content: '\2657';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#f1:hover {
+.f1:hover {
     background-color: lightblue;
 }
 
-#g1:before {
+.g1:before {
     content: '\2658';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#g1:hover {
+.g1:hover {
     background-color: lightblue;
 }
 
-#h1:before {
+.h1:before {
     content: '\2656';
     position: absolute;
     font-size: 6vw;
     padding: 10%;
 }
-#h1:hover {
+.h1:hover {
     background-color: lightblue;
 }
 
