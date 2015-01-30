@@ -159,12 +159,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-container {
-    
+container {  
 }
 
 body {
-    
 }
 
 table {
@@ -173,67 +171,55 @@ table {
 }
 
 tr {
-    
 }
 
 
 
 td {
-    
     width: 10%;
     border: 1px solid black;
     padding-bottom: 10%;
     position: relative;
-    
 }
    
 th {
     background-color: black;
     color: blue;
+    font-size: 5vw;
+    align-content: center;
 }
 
 .row1 :nth-of-type(even) {
     background-color: gray;
-   
 }
 
 .row2 :nth-of-type(odd){
     background-color: gray;
-   
 }
 
-
 .row3 :nth-of-type(even) {
-    background-color: gray;
-   
+    background-color: gray;   
 }
 
 .row4 :nth-of-type(odd){
     background-color: gray;
-   
 }
 
 .row5 :nth-of-type(even) {
     background-color: gray;
-    
 }
 
 .row6 :nth-of-type(odd) {
     background-color: gray;
-    
 }
 
 .row7 :nth-of-type(even) {
     background-color: gray;
-    
 }
 
 .row8 :nth-of-type(odd) {
     background-color: gray;
-    
 }
-
-
 
 #a8:before {
     content: '\265C';
