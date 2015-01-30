@@ -220,6 +220,11 @@ th {
     padding-bottom: 1%;
 }
 
+.square:before {
+    position: absolute;
+    font-size: 6vw;
+    padding: 10%;
+}
 
 .a8:before {
     content: '\265C';
