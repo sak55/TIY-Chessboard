@@ -193,6 +193,10 @@ th {
     background-color: gray;
 }
 
+.row1 :last-of-type (th) {
+    background-color: black;
+}
+
 .row2 :nth-of-type(odd){
     background-color: gray;
 }
