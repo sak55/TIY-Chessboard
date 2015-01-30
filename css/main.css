@@ -178,6 +178,7 @@ th {
     color: blue;
     font-size: 5vw;
     align-content: center;
+    padding-bottom: 10%;
 }
 
 .oddrow :nth-of-type(odd) {
