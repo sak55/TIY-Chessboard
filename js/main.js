@@ -20,9 +20,10 @@ function print(board) {
     document.write("<thead>");
     _.times(10,function(){
         document.write(head);});
-    _.times(1, function(){
     document.write("</thead>");
-    };
+    
+    document.write('</table>');
+}
 
 print();
 
