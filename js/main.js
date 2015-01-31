@@ -1,31 +1,47 @@
-function print(board) {
-    var head = ["<th></th>","<th>A</th>","<th>B</th>","<th>C</th>","<th>D</th>","<th>E</th>","<th>F</th>","<th>G</th>","<th>H</th>","<th></th>"],
-        cell = ["<td class=''></td>",]
-        row = "<tr></tr>",
-        i = 0;
+$(document).ready(function () {
     
-    document.write('<table>');
+});
 
-    document.write("<thead>");
-    document.write(head);
-    document.write("</thead>");
-            
-    _.times(8, function(){
-        document.write("<tr class=''>");
-        _.times(10, function(n){
-            document.write(cell[i]);
-            i++;
-        });
-        document.write("</tr>");});
-    
-    document.write("<thead>");
-    document.write(head);
-    document.write("</thead>");
-    
-    document.write('</table>');
-}
 
-print();
+
+
+
+
+
+
+
+
+
+
+
+//function print(board) {
+//    var head = ["<th></th>","<th>A</th>","<th>B</th>","<th>C</th>","<th>D</th>","<th>E</th>","<th>F</th>","<th>G</th>","<th>H</th>","<th></th>"],
+//        cell = ["<td class=''></td>",]
+//        row = "<tr></tr>",
+//        i = 0;
+//    
+//    document.write('<table>');
+//
+//    document.write("<thead>");
+//    document.write(head);
+//    document.write("</thead>");
+//            
+//    _.times(8, function(){
+//        document.write("<tr class=''>");
+//        _.times(10, function(n){
+//            document.write(cell[i]);
+//            i++;
+//        });
+//        document.write("</tr>");});
+//    
+//    document.write("<thead>");
+//    document.write(head);
+//    document.write("</thead>");
+//    
+//    document.write('</table>');
+//}
+//
+//print();
 
     
 //function print(board){
