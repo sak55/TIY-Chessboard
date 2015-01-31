@@ -555,6 +555,25 @@ th {
     background-color: lightblue;
 }
 
+.button-container {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+button {
+    background-color: lightgray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
