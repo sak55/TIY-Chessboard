@@ -1,33 +1,25 @@
-
-       
-    $(document).ready(function () {
-       var hits = 0;
-         
-            $('.playbutton').click(function() {
-                
-                if (hits < 1) {
-                    $('.whitepawnD').removeClass(),
-                    $('.d4').addClass('whitepawnD'); 
-                    hits++;
-                }
-                if (hits < 2) {
-                    $('.blackknightright').removeClass(),
-                    $('.f6').addClass('blackknightright');
-                    hits++;
-                }
-        
-        
-                  
-                               
-                              
+$(document).ready(function () {
+    var hits = 0,
+        moves = [[".d4", "whitepawnD"], [".f6", "blackknightright"]],
+        piece = "whitepawnD",
+        space = ".d4";
+    
+    $('.playbutton').click(function play() {
+            $('.' + moves[hits][hits + 1]).removeClass();
+            $(moves[hits][hits]).addClass(moves[hits][hits + 1]);
+            hits++;
     });
 
- }); 
+    $('.playbutton').click(function play() {
+            $('.' + moves[hits][hits + 1]).removeClass();
+            $(moves[hits][hits]).addClass(moves[hits][hits + 1]);
+            hits++;
+        
+    });
+    
+    
 
-
-
-
-
+});
 
 
 
