@@ -1,25 +1,26 @@
 $(document).ready(function () {
-    var hits = 0,
-        moves = [[".d4", "whitepawnD"], [".f6", "blackknightright"]],
-        piece = "whitepawnD",
-        space = ".d4";
-    
-    $('.playbutton').click(function play() {
-            $('.' + moves[hits][hits + 1]).removeClass();
-            $(moves[hits][hits]).addClass(moves[hits][hits + 1]);
-            hits++;
+       
+         
+            $('.fastforward-button').click(function() {
+                
+                
+                    $('.whitepawnD').removeClass(),
+                    $('.d4').addClass('whitepawnD'),
+                    
+                
+                
+                    $('.blackknightright').removeClass(),
+                    $('.f6').addClass('blackknightright'),
+                        
+                        
+                    $('.whitepawnC').removeClass(),
+                    $('.c4').addClass('whitepawnC'),
+                        
+                    $('.blackpawnE').removeClass(),
+                    $('.e6').addClass('blackpawnE');    
     });
 
-    $('.playbutton').click(function play() {
-            $('.' + moves[hits][hits + 1]).removeClass();
-            $(moves[hits][hits]).addClass(moves[hits][hits + 1]);
-            hits++;
-        
-    });
-    
-    
-
-});
+ }); 
 
 
 
