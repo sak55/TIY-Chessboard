@@ -1,6 +1,31 @@
-$(document).ready(function () {
-    
-});
+
+       
+    $(document).ready(function () {
+       var hits = 0;
+         
+            $('.playbutton').click(function() {
+                
+                if (hits < 1) {
+                    $('.whitepawnD').removeClass(),
+                    $('.d4').addClass('whitepawnD'); 
+                    hits++;
+                }
+                if (hits < 2) {
+                    $('.blackknightright').removeClass(),
+                    $('.f6').addClass('blackknightright');
+                    hits++;
+                }
+        
+        
+                  
+                               
+                              
+    });
+
+ }); 
+
+
+
 
 
 
